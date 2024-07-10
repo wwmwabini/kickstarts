@@ -1,0 +1,26 @@
+DAS101
+WRITE
+[root@das101 ~]# dd if=/dev/zero of=/tmp/tempfile bs=1M count=1024 conv=fdatasync
+1024+0 records in
+1024+0 records out
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 5.87325 s, 183 MB/s
+
+READ
+[root@das101 ~]# dd if=/tmp/tempfile of=/dev/null bs=1M count=1024
+1024+0 records in
+1024+0 records out
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 4.87347 s, 220 MB/s
+
+
+LIM111
+WRITE
+root@lim111:/home/ubuntu# dd if=/dev/zero of=/tmp/tempfile bs=1M count=1024 conv=fdatasync
+1024+0 records in
+1024+0 records out
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 1.09947 s, 977 MB/s
+
+READ
+root@lim111:/home/ubuntu# dd if=/tmp/tempfile of=/dev/null bs=1M count=1024
+1024+0 records in
+1024+0 records out
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 0.515813 s, 2.1 GB/s

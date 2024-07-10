@@ -1,0 +1,30 @@
+DAS101
+[root@das101 ~]# speedtest --server-id=37726
+
+   Speedtest by Ookla
+
+      Server: Liquid Intelligent Technologies - Nairobi (id: 37726)
+         ISP: Multacom Corporation
+Idle Latency:   268.01 ms   (jitter: 0.04ms, low: 267.96ms, high: 268.03ms)
+    Download:   648.73 Mbps (data used: 907.2 MB)
+                412.61 ms   (jitter: 81.55ms, low: 267.96ms, high: 881.19ms)
+      Upload:   118.46 Mbps (data used: 131.7 MB)
+                404.05 ms   (jitter: 81.47ms, low: 268.47ms, high: 554.48ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/273db4ed-50ae-4af0-a391-a7432ab321cc
+
+
+BHS108
+[root@bhs108 truehost]# speedtest --server-id=37726
+
+   Speedtest by Ookla
+
+      Server: Liquid Intelligent Technologies - Nairobi (id: 37726)
+         ISP: OVH SAS
+Idle Latency:   213.28 ms   (jitter: 0.02ms, low: 213.24ms, high: 213.31ms)
+    Download:   702.65 Mbps (data used: 1.1 GB)
+                329.80 ms   (jitter: 77.88ms, low: 215.53ms, high: 1056.64ms)
+      Upload:   400.24 Mbps (data used: 565.3 MB)
+                350.36 ms   (jitter: 78.78ms, low: 234.28ms, high: 469.02ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/cef36981-a6a9-4ec4-89dc-6edd27ea0671
